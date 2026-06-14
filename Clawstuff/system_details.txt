@@ -1,0 +1,40 @@
+=== System Hardware Details ===
+Generated: 2026-06-14 18:49:48 AEST
+
+=== CPU ===
+Architecture:                            x86_64
+CPU(s):                                  4
+Model name:                              Intel(R) Core(TM) i3 CPU         530  @ 2.93GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      2
+Socket(s):                               1
+CPU(s) scaling MHz:                      100%
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+
+=== Memory ===
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi       2.0Gi        31Mi        10Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+=== Disk ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb2       1.8T   34G  1.7T   2% /
+
+=== OS & Kernel ===
+Linux brainrock-P55A-UD3 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+
+=== GPU ===
+01:00.0 VGA compatible controller: NVIDIA Corporation G98 [GeForce 8400 GS Rev. 2] (rev a1)
+
+=== Network ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp3s0           UP             10.0.0.52/24 fe80::6ef0:49ff:feed:6040/64 
+wlp5s3           DOWN           
+docker0          DOWN           172.17.0.1/16 
+
+=== Uptime ===
+ 18:49:53 up 1 day, 20:51,  1 user,  load average: 0.73, 0.37, 0.20
